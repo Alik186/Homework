@@ -1,0 +1,30 @@
+table {
+	border-collapse: collapse;
+
+	border: 1px solid rgb(0 0 0);
+	font:
+		20px "Open Sans",
+		sans-serif;
+}
+
+td,
+th,
+caption {
+	border: 1px solid #000;
+
+	font-size: 25px;
+	margin-top: 5px;
+}
+
+caption {
+	border-bottom: none;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 25px;
+}
+
+.content {
+	color: red;
+}
