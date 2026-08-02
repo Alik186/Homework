@@ -1,0 +1,47 @@
+.label {
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	font-family: Arial, sans-serif;
+}
+
+.word {
+	font-size: 18px;
+}
+
+fieldset {
+	resize: vertical;
+	max-width: 300px;
+	max-height: 620px;
+	border-radius: 10px;
+	font-family: Arial, sans-serif;
+}
+
+textarea {
+	resize: vertical;
+	max-height: 200px;
+	display: block;
+	border-radius: 5px;
+	font-size: 19px;
+}
+
+.checkbox {
+	display: block;
+}
+
+input {
+	border-radius: 5px;
+	font-size: 19px;
+}
+
+.button {
+	display: block;
+	margin-top: 10px;
+}
+.form {
+	margin-top: 10px;
+}
+
+.bot {
+	margin-top: 10px;
+}
