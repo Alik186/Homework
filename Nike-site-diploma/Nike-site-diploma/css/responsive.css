@@ -1,0 +1,1360 @@
+@media (max-width: 1024px) {
+	.scale-outer {
+		height: auto !important;
+		overflow-x: hidden;
+		overflow-y: visible;
+	}
+
+	.scale-inner {
+		width: 100%;
+		transform: none !important;
+	}
+
+	.page {
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
+
+	.section {
+		position: relative;
+		left: auto;
+		top: auto;
+		width: 100%;
+		height: auto;
+	}
+
+	.deco-shoes,
+	.deco-vector {
+		display: none;
+	}
+
+	.header {
+		display: flex;
+		align-items: center;
+		height: 64px;
+		padding: 0 20px;
+		background-color: var(--color-bg);
+	}
+
+	.header__active {
+		display: none;
+	}
+
+	.header__menu {
+		position: static;
+		order: 0;
+		flex: none;
+		width: 28px;
+		height: 20px;
+	}
+
+	.header__menu-icon {
+		width: 28px;
+		height: 20px;
+	}
+
+	.header__logo {
+		position: static;
+		order: 1;
+		width: 58px;
+		height: 23px;
+		margin: 0 auto 0 18px;
+	}
+
+	.header__logo-img {
+		width: 58px;
+		height: 23px;
+	}
+
+	.header .header__icon {
+		position: static;
+		order: 3;
+		left: auto;
+		width: 22px;
+		height: 22px;
+		margin-left: 18px;
+	}
+
+	.header__icon-img {
+		width: 22px;
+		height: 22px;
+	}
+
+	.header__nav {
+		position: absolute;
+		left: 0;
+		top: 100%;
+		z-index: 40;
+		order: 4;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		max-height: 0;
+		overflow: hidden;
+		background-color: #0b0b0b;
+		border-top: 1px solid rgba(255, 255, 255, 0.12);
+		transition: max-height 0.3s ease;
+	}
+
+	.header__nav--open {
+		max-height: 300px;
+	}
+
+	.header .header__link {
+		position: static;
+		left: auto;
+		top: auto;
+		padding: 15px 20px;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+	}
+
+	.flash {
+		height: 104px;
+		overflow: hidden;
+	}
+
+	.flash__strip--red {
+		left: -40px;
+		top: 12px;
+		width: 1508px;
+		height: 80px;
+	}
+
+	.flash__strip--black {
+		left: -40px;
+		top: 0;
+		width: 1508px;
+		height: 104px;
+	}
+
+	.flash .flash__strip-inner {
+		width: 1506px;
+		height: 52px;
+	}
+
+	.flash__text--red {
+		left: 0;
+		top: 28px;
+		width: 100%;
+		height: 48px;
+	}
+
+	.flash__text--black {
+		left: 0;
+		top: 16px;
+		width: 100%;
+		height: 48px;
+	}
+
+	.flash .flash__text-inner {
+		font-size: 18px;
+		letter-spacing: 18px;
+	}
+
+	.hero {
+		display: flex;
+		flex-direction: column;
+		padding: 28px 20px 44px;
+	}
+
+	.hero__bg {
+		display: none;
+	}
+
+	.hero__ghost {
+		left: 0;
+		top: 290px;
+		width: 100%;
+		padding: 0 16px;
+		font-size: 42px;
+		line-height: 46px;
+		text-align: center;
+	}
+
+	.hero__info {
+		order: 1;
+		display: grid;
+		grid-template-columns: auto auto 1fr;
+		grid-template-areas:
+			"title title title"
+			"price size  bag"
+			"btn   btn   btn";
+		align-items: center;
+		gap: 18px;
+	}
+
+	.hero__title {
+		position: static;
+		grid-area: title;
+		font-size: 30px;
+		line-height: 34px;
+		letter-spacing: 4px;
+		white-space: normal;
+	}
+
+	.hero__price {
+		position: static;
+		grid-area: price;
+		font-size: 28px;
+		line-height: 1;
+	}
+
+	.hero__size {
+		position: relative;
+		grid-area: size;
+		display: flex;
+		align-items: center;
+		gap: 8px;
+	}
+
+	.hero__size-label {
+		position: static;
+		font-size: 14px;
+	}
+
+	.hero__size-btn {
+		position: static;
+		display: flex;
+		align-items: center;
+		width: auto;
+		height: auto;
+	}
+
+	.hero__size-value {
+		position: static;
+		font-size: 26px;
+	}
+
+	.hero__size-arrow {
+		position: static;
+		width: 24px;
+		height: 24px;
+	}
+
+	.hero__size-list {
+		left: 0;
+		top: calc(100% + 10px);
+	}
+
+	.hero__bag {
+		position: static;
+		grid-area: bag;
+		justify-self: start;
+		width: 22px;
+		height: 22px;
+	}
+
+	.hero__btn {
+		position: relative;
+		grid-area: btn;
+		justify-self: start;
+		left: auto;
+		top: auto;
+	}
+
+	.hero__stage {
+		position: relative;
+		order: 2;
+		width: 100%;
+		aspect-ratio: 622 / 470;
+		margin-top: 26px;
+	}
+
+	.hero__shoe {
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 80%;
+	}
+
+	.hero__shoe-inner {
+		width: 92%;
+		height: 100%;
+	}
+
+	.hero__shoe-img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.hero__360 {
+		left: 4%;
+		top: auto;
+		bottom: 6%;
+		width: 92%;
+		height: auto;
+	}
+
+	.hero__360-btn {
+		left: 50%;
+		top: auto;
+		bottom: 0;
+		margin-left: -20px;
+	}
+
+	.hero__pin {
+		width: 46px;
+		height: 46px;
+	}
+
+	.hero__pin--a {
+		left: 20%;
+		top: 26%;
+	}
+
+	.hero__pin--b {
+		left: 60%;
+		top: 50%;
+	}
+
+	.hero__pin-icon {
+		width: 20px;
+		height: 20px;
+	}
+
+	.hero__tip {
+		width: 200px;
+		padding: 10px 14px;
+		font-size: 13px;
+	}
+
+	.hero__colors {
+		position: static;
+		order: 3;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 108px;
+		overflow: hidden;
+	}
+
+	.hero__colors-svg {
+		flex: none;
+		transform: rotate(-90deg) scale(0.62);
+	}
+
+	.hero__cards {
+		order: 4;
+		display: flex;
+		gap: 14px;
+		margin: 18px -20px 0;
+		padding: 0 20px 10px;
+		overflow-x: auto;
+	}
+
+	.hero .hero-card {
+		position: relative;
+		flex: 0 0 220px;
+		padding-top: 42px;
+	}
+
+	.hero .hero-card__frame {
+		position: relative;
+		left: auto;
+		top: auto;
+		width: 100%;
+		height: 140px;
+	}
+
+	.hero .hero-card__img {
+		position: absolute;
+		left: 50%;
+		top: 0;
+		width: 158px;
+		height: auto;
+		transform: translateX(-50%);
+	}
+
+	.hero .hero-card__name {
+		position: absolute;
+		left: 14px;
+		top: auto;
+		bottom: 16px;
+		font-size: 15px;
+		line-height: 1;
+	}
+
+	.hero__slider {
+		order: 5;
+		display: flex;
+		gap: 30px;
+		margin-top: 14px;
+	}
+
+	.hero .hero__slider-btn {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+	}
+
+	.hero .hero__slider-icon {
+		position: static;
+		left: auto;
+		top: auto;
+		width: 24px;
+		height: 24px;
+	}
+
+	.hero .hero__slider-text {
+		position: static;
+		left: auto;
+		top: auto;
+		font-size: 14px;
+	}
+
+	.essence {
+		padding: 56px 20px;
+	}
+
+	.essence__title {
+		position: static;
+		width: 100%;
+		font-size: 34px;
+		line-height: 46px;
+	}
+
+	.essence .essence__title-line {
+		white-space: normal;
+	}
+
+	.essence__effect {
+		left: 50%;
+		top: 92px;
+		width: 210px;
+		height: 60px;
+		margin-left: -105px;
+	}
+
+	.essence__effect-inner {
+		width: 206px;
+		height: 30px;
+	}
+
+	.essence__thumb {
+		display: none;
+	}
+
+	.essence__text {
+		position: static;
+		width: 100%;
+		margin-top: 26px;
+		font-size: 15px;
+	}
+
+	.essence__text-p1 {
+		line-height: 26px;
+	}
+
+	.essence__text-p2 {
+		margin-top: 16px;
+		line-height: 24px;
+	}
+
+	.essence__btn {
+		position: relative;
+		left: auto;
+		top: auto;
+		margin: 28px auto 0;
+	}
+
+	.sellers {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
+		padding: 56px 20px;
+	}
+
+	.sellers__title {
+		position: static;
+		grid-column: 1 / -1;
+		width: 100%;
+		font-size: 34px;
+		line-height: 40px;
+	}
+
+	.sellers__effect {
+		left: 50%;
+		top: 44px;
+		width: 210px;
+		height: 60px;
+		margin-left: -105px;
+	}
+
+	.sellers__effect-inner {
+		width: 206px;
+		height: 30px;
+	}
+
+	.sellers .sellers__item {
+		position: relative;
+		left: auto;
+		top: auto;
+		width: 100%;
+		height: auto;
+		aspect-ratio: 416 / 560;
+	}
+
+	.sellers .sellers__media {
+		width: 100%;
+		height: 100%;
+	}
+
+	.sellers .sellers__img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.sellers .sellers__label {
+		left: 50%;
+		top: auto;
+		bottom: 16px;
+		font-size: 34px;
+		line-height: 38px;
+		-webkit-text-stroke-width: 1.5px;
+	}
+
+	.sellers .sellers__go {
+		left: 16px;
+		bottom: 64px;
+		font-size: 13px;
+	}
+
+	.sports {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 26px 18px;
+		padding: 160px 20px 56px;
+	}
+
+	.sports__word--sports {
+		left: 50%;
+		top: 24px;
+		width: 220px;
+		height: 120px;
+		margin-left: -125px;
+	}
+
+	.sports__word--time {
+		left: 50%;
+		top: 56px;
+		width: 160px;
+		height: 110px;
+		margin-left: 15px;
+	}
+
+	.sports .sports__word-inner {
+		font-size: 62px;
+	}
+
+	.sports__deco {
+		left: 50%;
+		top: 18px;
+		width: 175px;
+		height: 140px;
+		margin-left: -135px;
+	}
+
+	.sports__deco-inner {
+		width: 172px;
+		height: 57px;
+	}
+
+	.sports .sports__item {
+		position: relative;
+		left: auto;
+		top: auto;
+	}
+
+	.sports .sports__desk {
+		position: absolute;
+		left: 0;
+		top: 88px;
+		width: 100%;
+		height: auto;
+	}
+
+	.sports .sports__img {
+		position: absolute;
+		left: 50%;
+		top: 0;
+		width: 78%;
+		height: auto;
+		max-height: 108px;
+		object-fit: contain;
+		transform: translateX(-50%);
+	}
+
+	.sports .sports__name {
+		position: relative;
+		left: auto;
+		top: auto;
+		display: block;
+		padding-top: 132px;
+		font-size: 14px;
+		line-height: 1.3;
+		text-align: center;
+		white-space: normal;
+	}
+
+	.sports__btn {
+		position: relative;
+		grid-column: 1 / -1;
+		left: auto;
+		top: auto;
+		margin: 8px auto 0;
+	}
+
+	.modern {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 56px 20px;
+		text-align: center;
+	}
+
+	.modern__glow {
+		left: 50%;
+		top: 40px;
+		width: 260px;
+		height: 260px;
+		margin-left: -130px;
+	}
+
+	.modern__plate {
+		left: 50%;
+		top: 62px;
+		width: 216px;
+		height: 216px;
+		margin-left: -108px;
+	}
+
+	.modern__shoe {
+		position: relative;
+		left: auto;
+		top: auto;
+		width: 100%;
+		max-width: 330px;
+		height: 210px;
+		margin-bottom: 26px;
+	}
+
+	.modern__shoe-inner,
+	.modern__shoe-img {
+		width: 100%;
+		height: auto;
+	}
+
+	.modern__title {
+		position: static;
+		font-size: 34px;
+		white-space: normal;
+	}
+
+	.modern__text {
+		position: static;
+		margin-top: 14px;
+		font-size: 16px;
+		white-space: normal;
+	}
+
+	.modern .modern__text-line {
+		display: inline;
+	}
+
+	.modern__btn {
+		position: relative;
+		left: auto;
+		top: auto;
+		margin-top: 24px;
+	}
+
+	.favorites {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
+		padding: 56px 20px;
+	}
+
+	.favorites__title {
+		position: static;
+		grid-column: 1 / -1;
+		width: 100%;
+		font-size: 30px;
+		line-height: 38px;
+		text-align: center;
+		white-space: normal;
+	}
+
+	.favorites__title-glow {
+		display: none;
+	}
+
+	.favorites .favorites__item {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 8px;
+		padding: 16px 0;
+	}
+
+	.favorites .favorites__glow {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		width: 280px;
+		height: 280px;
+		margin: -140px 0 0 -140px;
+	}
+
+	.favorites .favorites__img-wrap {
+		position: relative;
+		left: auto;
+		top: auto;
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.favorites .favorites__img {
+		position: relative;
+		left: auto;
+		top: auto;
+		width: 100%;
+		height: auto;
+
+		transform: none;
+	}
+
+	.favorites .favorites__name,
+	.favorites .favorites__price {
+		position: relative;
+		left: auto;
+		top: auto;
+		text-align: center;
+		white-space: normal;
+		transform: none;
+	}
+
+	.favorites .favorites__name {
+		font-size: 16px;
+		line-height: 1.2;
+	}
+
+	.favorites .favorites__price {
+		font-size: 18px;
+		line-height: 1;
+	}
+
+	.brands {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		gap: 24px 32px;
+		padding: 34px 20px;
+	}
+
+	.brands .brands__logo {
+		position: static;
+		left: auto;
+		top: auto;
+		width: 72px;
+		height: auto;
+	}
+
+	.bestshoes {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 56px 20px;
+		text-align: center;
+	}
+
+	.bestshoes__glow {
+		left: 50%;
+		top: 0;
+		width: 420px;
+		height: 420px;
+		margin-left: -210px;
+	}
+
+	.bestshoes__glow-inner {
+		width: 330px;
+		height: 330px;
+	}
+
+	.bestshoes__title {
+		position: static;
+		order: 0;
+		font-size: 34px;
+		white-space: normal;
+	}
+
+	.bestshoes__text {
+		position: static;
+		order: 1;
+		margin-top: 14px;
+		font-size: 16px;
+		white-space: normal;
+	}
+
+	.bestshoes .bestshoes__text-line {
+		display: inline;
+	}
+
+	.bestshoes__btn {
+		position: relative;
+		order: 2;
+		left: auto;
+		top: auto;
+		margin-top: 22px;
+	}
+
+	.bestshoes .bestshoes__img {
+		position: relative;
+		left: auto;
+		top: auto;
+		width: 100%;
+		max-width: 320px;
+		height: auto;
+		margin-top: 16px;
+	}
+
+	.bestshoes__img--1 {
+		order: 3;
+		margin-top: 30px;
+		aspect-ratio: 240 / 400;
+	}
+
+	.bestshoes__img--2 {
+		order: 4;
+		aspect-ratio: 320 / 160;
+	}
+
+	.bestshoes__img--3 {
+		order: 5;
+		aspect-ratio: 240 / 320;
+	}
+
+	.visionaries {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 56px 20px;
+	}
+
+	.visionaries__picture {
+		position: relative;
+		order: 0;
+		left: auto;
+		top: auto;
+		width: 100%;
+		max-width: 360px;
+		height: auto;
+		aspect-ratio: 1;
+	}
+
+	.visionaries__title {
+		position: static;
+		order: 1;
+		margin-top: 24px;
+		font-size: 30px;
+		text-align: center;
+		white-space: normal;
+	}
+
+	.visionaries__lead {
+		position: static;
+		order: 2;
+		margin-top: 14px;
+		text-align: center;
+		white-space: normal;
+	}
+
+	.visionaries .visionaries__lead-line {
+		display: inline;
+	}
+
+	.visionaries .visionaries__item {
+		position: static;
+		width: 100%;
+		height: auto;
+		margin-top: 16px;
+	}
+
+	.visionaries__item--1 {
+		order: 3;
+	}
+
+	.visionaries__item--2 {
+		order: 4;
+	}
+
+	.visionaries__item--3 {
+		order: 5;
+	}
+
+	.visionaries__btn {
+		position: relative;
+		order: 6;
+		left: auto;
+		top: auto;
+		margin-top: 26px;
+	}
+
+	.club {
+		padding: 48px 20px;
+	}
+
+	.club__box {
+		left: 20px;
+		top: 48px;
+		right: 20px;
+		bottom: 48px;
+		width: auto;
+		height: auto;
+	}
+
+	.club__logo {
+		left: auto;
+		right: 22px;
+		top: auto;
+		bottom: 20px;
+		width: 104px;
+		height: auto;
+		opacity: 0.55;
+	}
+
+	.club__title {
+		position: static;
+		padding: 30px 22px 0;
+		font-size: 26px;
+		line-height: 1.2;
+		white-space: normal;
+	}
+
+	.club__text {
+		position: static;
+		padding: 12px 22px 0;
+		font-size: 15px;
+		white-space: normal;
+	}
+
+	.club__btn {
+		position: relative;
+		left: auto;
+		top: auto;
+		margin: 20px 0 30px 22px;
+	}
+
+	.footer__top {
+		position: relative;
+		left: auto;
+		top: auto;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 18px;
+		width: 100%;
+		height: auto;
+		padding: 26px 20px;
+	}
+
+	.footer__feature {
+		position: relative;
+		padding-left: 34px;
+	}
+
+	.footer .footer__feature-icon {
+		position: absolute;
+		left: 0;
+		top: 2px;
+	}
+
+	.footer .footer__feature-title {
+		position: static;
+		left: auto;
+		top: auto;
+		font-size: 14px;
+		white-space: normal;
+	}
+
+	.footer .footer__feature-sub {
+		position: static;
+		left: auto;
+		top: auto;
+		font-size: 13px;
+	}
+
+	.footer__mid {
+		position: relative;
+		left: auto;
+		top: auto;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 26px 20px;
+		width: 100%;
+		height: auto;
+		padding: 30px 20px 34px;
+	}
+
+	.footer__headline {
+		position: static;
+		grid-column: 1 / -1;
+		font-size: 30px;
+		line-height: 1.2;
+	}
+
+	.footer__field {
+		position: relative;
+		grid-column: 1 / -1;
+		left: auto;
+		top: auto;
+		width: 100%;
+		max-width: 380px;
+	}
+
+	.footer__input {
+		left: 24px;
+		width: calc(100% - 180px);
+	}
+
+	.footer__submit {
+		left: auto;
+		right: -1px;
+	}
+
+	.footer__logo {
+		position: relative;
+		grid-column: 1 / -1;
+		left: auto;
+		top: auto;
+		width: 160px;
+		height: auto;
+	}
+
+	.footer__col {
+		position: relative;
+		left: auto;
+		top: auto;
+	}
+
+	.footer .footer__col-title {
+		position: static;
+		left: auto;
+		top: auto;
+	}
+
+	.footer .footer__col-link {
+		position: static;
+		left: auto;
+		top: auto;
+		display: block;
+		margin-top: 10px;
+	}
+
+	.footer__bottom {
+		position: relative;
+		left: auto;
+		top: auto;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 10px;
+		width: 100%;
+		height: auto;
+		padding: 20px;
+	}
+
+	.footer .footer__copy {
+		position: static;
+		left: auto;
+		top: auto;
+		font-size: 13px;
+	}
+
+	.footer .footer__copy-icon {
+		position: static;
+		left: auto;
+		top: auto;
+	}
+
+	.footer .footer__social {
+		position: static;
+		left: auto;
+		top: auto;
+		margin-left: 14px;
+	}
+
+	.footer__social--yt {
+		margin-left: auto;
+	}
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+	.hero__colors {
+		height: 150px;
+	}
+
+	.hero__colors-svg {
+		transform: rotate(-90deg) scale(0.85);
+	}
+
+	.hero__pin {
+		width: 52px;
+		height: 52px;
+	}
+
+	.hero__pin-icon {
+		width: 24px;
+		height: 24px;
+	}
+
+	.hero__title {
+		font-size: 38px;
+		line-height: 42px;
+		letter-spacing: 6px;
+	}
+
+	.hero__ghost {
+		top: 330px;
+		font-size: 64px;
+		line-height: 68px;
+	}
+}
+
+@media (max-width: 640px) {
+	.header {
+		padding: 0 16px;
+	}
+
+	.hero {
+		padding: 22px 16px 36px;
+	}
+
+	.hero__title {
+		font-size: 26px;
+		line-height: 30px;
+		letter-spacing: 3px;
+	}
+
+	.hero__ghost {
+		top: 250px;
+		font-size: 32px;
+		line-height: 36px;
+	}
+
+	.hero__info {
+		gap: 14px;
+	}
+
+	.hero__price {
+		font-size: 24px;
+	}
+
+	.hero__size-value {
+		font-size: 22px;
+	}
+
+	.hero__colors {
+		height: 92px;
+	}
+
+	.hero__colors-svg {
+		transform: rotate(-90deg) scale(0.52);
+	}
+
+	.hero__cards {
+		margin-left: -16px;
+		margin-right: -16px;
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.hero .hero-card {
+		flex: 0 0 190px;
+		padding-top: 36px;
+	}
+
+	.hero .hero-card__frame {
+		height: 124px;
+	}
+
+	.hero .hero-card__img {
+		width: 136px;
+	}
+
+	.hero .hero-card__name {
+		left: 12px;
+		bottom: 14px;
+		font-size: 13px;
+	}
+
+	.hero__tip {
+		width: 172px;
+		font-size: 12px;
+	}
+
+	.essence,
+	.sellers,
+	.sports,
+	.modern,
+	.favorites,
+	.bestshoes,
+	.visionaries {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.essence__title {
+		font-size: 26px;
+		line-height: 36px;
+	}
+
+	.essence__effect {
+		top: 74px;
+		width: 168px;
+		height: 48px;
+		margin-left: -84px;
+	}
+
+	.essence__effect-inner {
+		width: 164px;
+		height: 24px;
+	}
+
+	.sellers {
+		grid-template-columns: 1fr;
+		justify-items: center;
+	}
+
+	.sellers__title {
+		font-size: 28px;
+	}
+
+	.sellers__effect {
+		top: 40px;
+		width: 168px;
+		height: 48px;
+		margin-left: -84px;
+	}
+
+	.sellers .sellers__item {
+		max-width: 360px;
+	}
+
+	.sports {
+		grid-template-columns: 1fr;
+		padding-top: 132px;
+	}
+
+	.sports .sports__word-inner {
+		font-size: 48px;
+	}
+
+	.sports__word--sports {
+		top: 26px;
+		width: 180px;
+		margin-left: -100px;
+	}
+
+	.sports__word--time {
+		top: 52px;
+		width: 130px;
+		margin-left: 8px;
+	}
+
+	.sports__deco {
+		top: 20px;
+		width: 140px;
+		height: 112px;
+		margin-left: -108px;
+	}
+
+	.sports__deco-inner {
+		width: 138px;
+		height: 46px;
+	}
+
+	.sports .sports__img {
+		max-height: 128px;
+	}
+
+	.modern__title,
+	.bestshoes__title {
+		font-size: 28px;
+	}
+
+	.favorites {
+		grid-template-columns: 1fr;
+		justify-items: center;
+	}
+
+	.favorites .favorites__item {
+		max-width: 300px;
+	}
+
+	.favorites__title {
+		font-size: 26px;
+		line-height: 34px;
+	}
+
+	.visionaries__title,
+	.club__title {
+		font-size: 24px;
+	}
+
+	.brands .brands__logo {
+		width: 62px;
+	}
+
+	/* Футер полностью в одну колонку */
+	.footer__top,
+	.footer__mid {
+		grid-template-columns: 1fr;
+	}
+
+	.footer__top,
+	.footer__mid,
+	.footer__bottom {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.footer__headline {
+		font-size: 26px;
+	}
+
+	.footer__input {
+		left: 20px;
+		width: calc(100% - 170px);
+	}
+
+	.footer__bottom {
+		justify-content: center;
+		gap: 10px;
+	}
+
+	.footer .footer__copy,
+	.footer .footer__copy-icon {
+		order: 0;
+	}
+
+	.footer__bottom::after {
+		content: "";
+		order: 1;
+		flex-basis: 100%;
+		height: 0;
+	}
+
+	.footer .footer__social {
+		order: 2;
+		margin-left: 16px;
+	}
+
+	.footer__social--yt {
+		margin-left: 0;
+	}
+}

@@ -1,0 +1,22 @@
+@import "./base/normalize.css";
+@import "./base/vars.css";
+@import "./base/fonts.css";
+@import "./base/globals.css";
+
+@import "./blocks/buttons.css";
+@import "./blocks/deco.css";
+@import "./blocks/hero.css";
+@import "./blocks/header.css";
+@import "./blocks/flash.css";
+@import "./blocks/essence.css";
+@import "./blocks/sellers.css";
+@import "./blocks/sports.css";
+@import "./blocks/modern.css";
+@import "./blocks/favorites.css";
+@import "./blocks/brands.css";
+@import "./blocks/bestshoes.css";
+@import "./blocks/visionaries.css";
+@import "./blocks/club.css";
+@import "./blocks/footer.css";
+
+@import "./responsive.css";

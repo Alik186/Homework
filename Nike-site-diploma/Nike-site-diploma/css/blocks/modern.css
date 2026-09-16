@@ -1,0 +1,99 @@
+.modern {
+	top: 4569px;
+	height: 480px;
+}
+
+.modern__glow {
+	position: absolute;
+	left: 102px;
+	top: 62px;
+	width: 357px;
+	height: 357px;
+	background-color: var(--color-red);
+	border-radius: 111px;
+	filter: blur(125px);
+	mix-blend-mode: hard-light;
+}
+
+.modern__plate {
+	position: absolute;
+	left: 130px;
+	top: 105px;
+	width: 300px;
+	height: 300px;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 10px;
+	backdrop-filter: blur(2px);
+	-webkit-backdrop-filter: blur(2px);
+	mix-blend-mode: soft-light;
+}
+
+.modern__shoe {
+	position: absolute;
+	left: 114px;
+	top: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 373.044px;
+	height: 223.106px;
+}
+
+.modern__shoe-inner {
+	flex: none;
+	width: 350px;
+	height: 166.566px;
+	border-radius: 10px;
+	box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.25);
+	transform: rotate(9.69deg);
+}
+
+.modern__shoe-img {
+	width: 350px;
+	height: 166.566px;
+	border-radius: 10px;
+	object-fit: cover;
+}
+
+.modern__title {
+	position: absolute;
+	left: 619px;
+	top: 78px;
+	margin: 0;
+	font-family: var(--font-main);
+	font-weight: 400;
+	font-size: 64px;
+	line-height: normal;
+	color: var(--color-white);
+	white-space: nowrap;
+}
+
+.modern__title-line {
+	display: block;
+}
+
+.modern__text {
+	position: absolute;
+	left: 619px;
+	top: 256px;
+	font-family: var(--font-main);
+	font-weight: 400;
+	font-size: 24px;
+	line-height: normal;
+	color: var(--color-white);
+	white-space: nowrap;
+}
+
+.modern__text-line {
+	display: block;
+}
+
+.modern__btn {
+	left: 619px;
+	top: 354px;
+	width: 157px;
+}
+
+.modern__btn .btn-outline__arrow {
+	left: 117px;
+}

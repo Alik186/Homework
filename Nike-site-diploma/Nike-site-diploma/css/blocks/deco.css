@@ -1,0 +1,63 @@
+.deco-shoes {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1440px;
+	height: 100%;
+}
+
+.deco-shoes__two {
+	position: absolute;
+	left: -336px;
+	top: 1575px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 831.521px;
+	height: 719.853px;
+}
+
+.deco-shoes__two-img {
+	flex: none;
+	width: 746px;
+	height: 377px;
+	object-fit: cover;
+	transform: rotate(32.64deg);
+}
+
+.deco-shoes__one {
+	position: absolute;
+	left: 871px;
+	top: 8014px;
+	width: 798px;
+	height: 376px;
+	object-fit: cover;
+}
+
+.deco-vector {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1440px;
+	height: 100%;
+	pointer-events: none;
+}
+
+.deco-vector__right {
+	position: absolute;
+	left: 1075px;
+	top: -916px;
+	width: 820.5px;
+	height: 5768.5px;
+	mix-blend-mode: lighten;
+	transform: rotate(180deg);
+}
+
+.deco-vector__left {
+	position: absolute;
+	left: -203.5px;
+	top: 1437px;
+	width: 820.5px;
+	height: 5768.5px;
+	mix-blend-mode: lighten;
+}

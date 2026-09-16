@@ -1,0 +1,58 @@
+.brands {
+	top: 5915px;
+	height: 120px;
+}
+
+.brands__logo {
+	position: absolute;
+	width: 100px;
+	object-fit: cover;
+}
+
+.brands__logo--1 {
+	left: 40px;
+	top: 26px;
+	height: 67.361px;
+}
+
+.brands__logo--2 {
+	left: 220px;
+	top: 34px;
+	height: 52.333px;
+}
+
+.brands__logo--3 {
+	left: 400px;
+	top: 35px;
+	height: 49.905px;
+}
+
+.brands__logo--4 {
+	left: 580px;
+	top: 26px;
+	height: 67.35px;
+}
+
+.brands__logo--5 {
+	left: 760px;
+	top: 32px;
+	height: 56.25px;
+}
+
+.brands__logo--6 {
+	left: 940px;
+	top: 40px;
+	height: 40.619px;
+}
+
+.brands__logo--7 {
+	left: 1120px;
+	top: 10px;
+	height: 100px;
+}
+
+.brands__logo--8 {
+	left: 1300px;
+	top: 33px;
+	height: 55px;
+}

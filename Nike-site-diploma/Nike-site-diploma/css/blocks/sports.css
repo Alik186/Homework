@@ -1,0 +1,210 @@
+.sports {
+	top: 3045px;
+	height: 1364px;
+}
+
+.sports__deco {
+	position: absolute;
+	left: 452px;
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 240.619px;
+	height: 198.478px;
+	mix-blend-mode: multiply;
+}
+
+.sports__deco-inner {
+	flex: none;
+	width: 237.394px;
+	height: 78.719px;
+	transform: rotate(145.82deg);
+}
+
+.sports__deco-img {
+	width: 237.394px;
+	height: 78.719px;
+	object-fit: cover;
+}
+
+.sports__word {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sports__word-inner {
+	flex: none;
+	margin: 0;
+	font-family: var(--font-cond);
+	font-weight: 900;
+	font-style: italic;
+	font-size: 96px;
+	line-height: normal;
+	text-transform: capitalize;
+	white-space: nowrap;
+	transform: rotate(-10.67deg);
+}
+
+.sports__word--sports {
+	left: 508px;
+	top: 12.01px;
+	width: 303.335px;
+	height: 166.172px;
+}
+
+.sports__word--sports .sports__word-inner {
+	color: var(--color-white);
+}
+
+.sports__word--time {
+	left: 728px;
+	top: 50.9px;
+	width: 203.1px;
+	height: 147.278px;
+}
+
+.sports__word--time .sports__word-inner {
+	color: transparent;
+	-webkit-text-stroke: 2px var(--color-white);
+}
+
+.sports__desk {
+	position: absolute;
+	width: 400px;
+	height: 60.833px;
+	object-fit: cover;
+}
+
+.sports__img {
+	position: absolute;
+	width: 300px;
+	object-fit: cover;
+	filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.25));
+}
+
+.sports__name {
+	position: absolute;
+	margin: 0;
+	font-family: var(--font-cond);
+	font-weight: 300;
+	font-size: 24px;
+	line-height: normal;
+	color: var(--color-white);
+	text-transform: capitalize;
+	white-space: nowrap;
+}
+
+.sports__item--1 .sports__desk {
+	left: 79px;
+	top: 476.01px;
+}
+
+.sports__item--1 .sports__img {
+	left: 129px;
+	top: 353.01px;
+	height: 138.462px;
+}
+
+.sports__item--1 .sports__name {
+	left: 213px;
+	top: 553.01px;
+}
+
+/* 2 — Air Jordan 4 Retro Lightning */
+.sports__item--2 .sports__desk {
+	left: 526px;
+	top: 476.01px;
+}
+
+.sports__item--2 .sports__img {
+	left: 576px;
+	top: 319.01px;
+	height: 172.314px;
+}
+
+.sports__item--2 .sports__name {
+	left: 572px;
+	top: 553.01px;
+}
+
+.sports__item--3 .sports__desk {
+	left: 514px;
+	top: 792.01px;
+}
+
+.sports__item--3 .sports__img {
+	left: 564px;
+	top: 633.01px;
+	height: 174.411px;
+}
+
+.sports__item--3 .sports__name {
+	left: 565px;
+	top: 869.01px;
+}
+
+.sports__item--4 .sports__desk {
+	left: 961px;
+	top: 792.01px;
+}
+
+.sports__item--4 .sports__img {
+	left: 1011px;
+	top: 622.01px;
+	height: 185.35px;
+}
+
+.sports__item--4 .sports__name {
+	left: 1069px;
+	top: 869.01px;
+}
+
+.sports__item--5 .sports__desk {
+	left: 79px;
+	top: 1089.01px;
+}
+
+.sports__item--5 .sports__img {
+	left: 129px;
+	top: 938.01px;
+	height: 165.951px;
+}
+
+.sports__item--5 .sports__name {
+	left: 137px;
+	top: 1166.01px;
+}
+
+.sports__item--6 .sports__desk {
+	left: 526px;
+	top: 1089.01px;
+}
+
+.sports__item--6 .sports__img {
+	left: 576px;
+	top: 994.01px;
+	height: 109.725px;
+}
+
+.sports__item--6 .sports__name {
+	left: 611px;
+	top: 1166.01px;
+}
+
+.sports__btn {
+	left: 618px;
+	top: 1316px;
+	width: 204px;
+}
+
+.sports__btn .btn-outline__text {
+	top: 18px;
+	line-height: 12px;
+}
+
+.sports__btn .btn-outline__arrow {
+	left: 156px;
+}
