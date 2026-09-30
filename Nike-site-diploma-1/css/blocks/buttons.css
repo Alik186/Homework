@@ -1,0 +1,49 @@
+.btn-outline {
+	position: absolute;
+	display: block;
+	border: 1px solid var(--color-white);
+	border-radius: 36px;
+	color: var(--color-white);
+}
+
+.btn-outline__text {
+	position: absolute;
+	left: 24px;
+	font-family: var(--font-main);
+	font-weight: 400;
+	white-space: nowrap;
+}
+
+.btn-outline__arrow {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+}
+
+.btn-outline {
+	height: 36px;
+}
+
+.btn-outline .btn-outline__text {
+	top: 12px;
+	font-size: 16px;
+	line-height: 12px;
+}
+
+.btn-outline .btn-outline__arrow {
+	top: 6px;
+}
+
+.btn-outline--48 {
+	height: 48px;
+}
+
+.btn-outline--48 .btn-outline__text {
+	top: 16px;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.btn-outline--48 .btn-outline__arrow {
+	top: 12px;
+}

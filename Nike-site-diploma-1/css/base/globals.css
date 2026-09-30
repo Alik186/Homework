@@ -1,0 +1,46 @@
+.page__body {
+	margin: 0;
+	background-color: var(--color-bg);
+	color: var(--color-white);
+	font-family: var(--font-main);
+	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.scale-outer {
+	width: 100%;
+	overflow: hidden;
+}
+
+.scale-inner {
+	width: var(--design-width);
+	transform-origin: top left;
+}
+
+.page {
+	position: relative;
+	width: var(--design-width);
+	height: var(--design-height);
+	overflow: hidden;
+	background-color: var(--color-bg);
+}
+
+.section {
+	position: absolute;
+	left: 0;
+	width: var(--design-width);
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	white-space: nowrap;
+	border: 0;
+}

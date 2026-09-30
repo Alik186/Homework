@@ -1,0 +1,15 @@
+:root {
+	--color-bg: #000000;
+	--color-white: #ffffff;
+	--color-red: #ba0000;
+	--color-black: #000000;
+	--color-white-50: rgba(255, 255, 255, 0.5);
+	--color-white-60: rgba(255, 255, 255, 0.6);
+	--color-stroke: #35353a;
+
+	--font-main: "Jost", "Century Gothic", "Trebuchet MS", sans-serif;
+	--font-cond: "Barlow Condensed", "Arial Narrow", sans-serif;
+
+	--design-width: 1440px;
+	--design-height: 9249px;
+}

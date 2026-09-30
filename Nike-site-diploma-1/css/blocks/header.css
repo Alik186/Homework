@@ -1,0 +1,93 @@
+.header {
+	top: 0;
+	height: 112px;
+}
+
+.header__active {
+	position: absolute;
+	left: 129px;
+	top: -2px;
+	width: 97px;
+	height: 8px;
+	background-color: var(--color-red);
+}
+
+.header__menu {
+	position: absolute;
+	left: 40px;
+	top: 44px;
+	width: 48px;
+	height: 24px;
+}
+
+.header__menu-icon {
+	width: 48px;
+	height: 24px;
+}
+
+.header__link {
+	position: absolute;
+	top: 48px;
+	font-family: var(--font-main);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 16px;
+	color: var(--color-white);
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+.header__link--new {
+	left: 128px;
+}
+
+.header__link--men {
+	left: 249px;
+}
+
+.header__link--women {
+	left: 321px;
+}
+
+.header__link--kids {
+	left: 416px;
+}
+
+.header__logo {
+	position: absolute;
+	left: 680px;
+	top: 40px;
+	width: 80px;
+	height: 31.5625px;
+}
+
+.header__logo-img {
+	width: 80px;
+	height: 31.5625px;
+	object-fit: cover;
+}
+
+.header__icon {
+	position: absolute;
+	top: 44px;
+	width: 24px;
+	height: 24px;
+}
+
+.header__icon-img {
+	width: 24px;
+	height: 24px;
+}
+
+.header__icon--search {
+	left: 1248px;
+}
+
+.header__icon--account {
+	left: 1312px;
+}
+
+.header__icon--bag {
+	left: 1376px;
+	overflow: hidden;
+}

@@ -1,0 +1,100 @@
+.bestshoes {
+	top: 6275px;
+	height: 737px;
+}
+
+.bestshoes__glow {
+	position: absolute;
+	left: 678px;
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 740.641px;
+	height: 736.988px;
+	mix-blend-mode: hard-light;
+}
+
+.bestshoes__glow-inner {
+	flex: none;
+	width: 580.548px;
+	height: 586.348px;
+	border-radius: 419px;
+	background-image: conic-gradient(
+		from 90deg,
+		rgb(186, 0, 0) 0%,
+		rgba(186, 0, 0, 0.28) 100%
+	);
+	filter: blur(125px);
+	transform: rotate(71.44deg);
+}
+
+.bestshoes__img {
+	position: absolute;
+	border-radius: 10px;
+	object-fit: cover;
+}
+
+.bestshoes__img--1 {
+	left: 759px;
+	top: 132px;
+	width: 240px;
+	height: 400px;
+}
+
+.bestshoes__img--2 {
+	left: 1039px;
+	top: 132px;
+	width: 320px;
+	height: 160px;
+}
+
+.bestshoes__img--3 {
+	left: 1099px;
+	top: 320px;
+	width: 240px;
+	height: 320px;
+}
+
+.bestshoes__title {
+	position: absolute;
+	left: 80px;
+	top: 208px;
+	margin: 0;
+	font-family: var(--font-main);
+	font-weight: 400;
+	font-size: 64px;
+	line-height: normal;
+	color: var(--color-white);
+	white-space: nowrap;
+}
+
+.bestshoes__title-line {
+	display: block;
+}
+
+.bestshoes__text {
+	position: absolute;
+	left: 80px;
+	top: 394px;
+	font-family: var(--font-main);
+	font-weight: 400;
+	font-size: 24px;
+	line-height: normal;
+	color: var(--color-white);
+	white-space: nowrap;
+}
+
+.bestshoes__text-line {
+	display: block;
+}
+
+.bestshoes__btn {
+	left: 80px;
+	top: 492px;
+	width: 157px;
+}
+
+.bestshoes__btn .btn-outline__arrow {
+	left: 117px;
+}
